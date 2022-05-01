@@ -1,5 +1,5 @@
 {% set name = "prometheus-fastapi-instrumentator" %}
-{% set version = "5.7.1" %}
+{% set version = "5.8.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/prometheus-fastapi-instrumentator-{{ version }}.tar.gz
-  sha256: 5371f1b494e2b00017a02898d854119b4929025d1a203670b07b3f42dd0b5526
+  sha256: 2b41c8f3262ff78cd594aa6a145a59409e61f6294bd39a87587f9c4164be6a77
 
 build:
   number: 0
