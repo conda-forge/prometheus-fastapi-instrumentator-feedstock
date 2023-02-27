@@ -1,11 +1,11 @@
-About prometheus-fastapi-instrumentator
-=======================================
+About prometheus-fastapi-instrumentator-feedstock
+=================================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/prometheus-fastapi-instrumentator-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/trallnag/prometheus-fastapi-instrumentator
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/prometheus-fastapi-instrumentator-feedstock/blob/main/LICENSE.txt)
 
 Summary: Instrument your FastAPI with Prometheus metrics
 
