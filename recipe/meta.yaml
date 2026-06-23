@@ -1,5 +1,5 @@
 {% set name = "prometheus-fastapi-instrumentator" %}
-{% set version = "8.0.1" %}
+{% set version = "8.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/prometheus_fastapi_instrumentator-{{ version }}.tar.gz
-  sha256: da495a52da38ac5cfae0f88103306199fd14ba552a549839b3abc7bd0db192d1
+  sha256: 3c252e748151768a7aefd66824a04a870144f71de48a67aed211749a9ca2a548
 
 build:
   noarch: python
@@ -21,8 +21,8 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<4.0
-    - starlette <2.0.0,>=1.0.0
-    - prometheus_client <1.0.0,>=0.8.0
+    - starlette >=1.0.0,<2.0.0
+    - prometheus_client >=0.8.0,<1.0.0
 
 test:
   imports:
